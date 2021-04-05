@@ -5,6 +5,9 @@
 
 #define GPIO_STATUS 2
 
+// This was tested on an ESP-01s. Users of non-S varient ESP-01 modules have reported
+// needing to change "Builtin Led" in the sketch tools menu from "2" to "1"
+
 
 void setup() {
   Serial.begin(115200);   // Serial UART boardrate
