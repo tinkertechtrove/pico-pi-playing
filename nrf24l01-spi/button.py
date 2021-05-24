@@ -23,7 +23,8 @@ def setup():
     return nrf
 
 def demo(nrf):
-    state = 0 True:
+    state = 0 
+    while True:
         if state != btn.value():
             state = btn.value()
             led.value(state)
